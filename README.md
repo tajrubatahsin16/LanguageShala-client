@@ -1,0 +1,10 @@
+- Website Name: LanguageShala
+
+- This is a website where people can learn many languages by enrolling into those classes. There are 3 roles- Admin, Instructor and student.
+- Whenever a person registers a account he/she remains a student. But admin can make a student instructor or admin of this platform.
+- When a person is an admin, he/she can access these two routes - Manage users and Manage Classes. In Manage Users admin can make a person instructor or admin. In Manage Classes route an admin approve or deny class requests made by instructors. If admin deny a class request he should also give feedback to the instructor by using feedback button.
+- When a person is an Instructor, he/she can access the Add Class and My Classes routes. In Add class route an instructor can add a class. AT the beginning all the classes added by instructor remain in pending status. The Admin can approve or deny it. In My Class route an instructor can see all the class requests made by him/her and their status and feedback from Admin.
+- When a person is student, he/she can access Selected Classes, Enrolled Classes & Payment History routes. From the class route only a student can add classes to enroll further. Student can see those selected classes in the Selected Classes route. From the Selected Classes route a student can delete a class not to go further. Also a student can click on the pay button to enroll a class. By clicking pay button, a student can pay for the class by using card/online payment system. After a successful payment the student successfully enrolls the class. At the Enrolled Classes route a student can see those paid classes. At the Payment History route the specific student can see the payments made by him/her.
+
+- Packages/Technology: React.js, Tailwind, DaisyUI, Axios, React-hook-form, TanStack react query, Express.js, MongoDB, Stripe, JWT, dotenv, Sweetalert
+- Live Site Link: https://language-shala-assignment-12.web.app/

@@ -1,0 +1,11 @@
+.popular{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+@media (min-width: 375px) and (max-width: 640px) {
+    .popular{
+        display: flex;
+        flex-direction: column;
+    }
+}
